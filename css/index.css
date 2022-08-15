@@ -1,0 +1,144 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    background: #333;
+}
+
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 85%;
+    
+    top: 0;
+    left: 0;
+}
+header a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.nav_link{
+    
+}
+
+.nav_link li{
+    text-decoration:none;
+    display: inline-block;
+    padding: 0px 40px; 
+    border: 10px;   
+     
+    border-color: aliceblue;
+    border-radius: 15%;
+}
+
+.nav_link li a{
+ 
+    
+    text-decoration:none;
+
+    border-radius: 10%;
+
+}
+
+.nav_link li:hover{
+     
+    color:aliceblue;
+
+    background-color: #6b8770;
+          
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+/* main */
+.Info{
+    width: 500px;
+    margin: 60px auto;
+    color: aliceblue;
+}
+
+li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: rgb(46, 80, 100);
+    display: block;
+    height: 3px;
+    border: 1px solid rgb(50, 90, 109);
+    box-shadow: 0 0 10px;
+    border-radius: 3px;
+}
+.bar span{
+    height: 3px;
+    float: left;
+    background: rgb(24, 196, 226);
+}
+
+.html{
+     width: 70%;
+    animation: html 2s
+}
+ 
+.javascript{
+    width: 68%;
+    animation: javascript 2s
+}
+
+.java{
+    width: 55%;
+    animation: java 2s
+}
+.python{
+    width: 60%;
+    animation: java 2s
+}
+
+
+@keyframes html {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+ 
+@keyframes javascript {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 68%;
+    }
+}
+
+@keyframes java {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 55%;
+    }
+}
